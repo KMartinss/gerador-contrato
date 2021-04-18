@@ -3,11 +3,11 @@ mat-sidenav-container {
 }
 
 mat-sidenav-content {
-  background: #0000001a;
+  background: var(--body-background);
 }
 
 mat-sidenav {
-  background-image: linear-gradient(to bottom, #273a56, black);
+  background-image: var(--menu-bg-color);
   width: 15%;
 }
 
@@ -28,6 +28,6 @@ mat-sidenav ul li a {
 }
 
 mat-sidenav ul li a:hover {
-  color: #ffffff;
+  color: #b5b1b1f0;
   cursor: pointer;
 }

@@ -1,6 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+
+
+:root {
+    --main-color: #273a56;
+    --body-background: #0000001a;
+    --menu-bg-color: linear-gradient(to bottom, #273a56, black);
+    --btn-bg-color: #273a56;
+    --btn-hover-bg-color: #131c2b;
+}
+
+
+
 html,
 body {
     height: 100%;
@@ -28,10 +40,10 @@ mat-form-field {
 .mat-raised-button.mat-primary,
 .mat-fab.mat-primary,
 .mat-mini-fab.mat-primary {
-    background-color: #273a56; 
+    background-color: var(--btn-bg-color);
 
     &:hover {
-        background-color: #131c2b; 
+        background-color: var(--btn-hover-bg-color);
     }
 }
 
@@ -39,7 +51,9 @@ mat-form-field {
     color: #000000;
 }
 
-
+.mat-form-field-appearance-outline.mat-focused.mat-form-field.outiline-thick {
+    color: red !important;
+}
 
 
 #title-page {
