@@ -1,0 +1,25 @@
+.wrapper-auth {
+    height: 100%;
+    background-image: linear-gradient(to bottom, #273a56, black);
+    padding: 20px;
+}
+
+.wrapper-auth mat-card {
+    background-color: #ffffff !important;
+    margin: 120px auto auto auto;
+    height: 300px;
+    padding: 20px;
+}
+
+.wrapper-auth mat-card form {
+    margin-top: 10px;
+}
+
+.wrapper-auth mat-card form mat-form-field {
+    width: 100%;
+}
+
+.wrapper-auth mat-card h1 {
+    margin-left: -30px;
+    font-size: 1.7rem;
+}
